@@ -1,0 +1,199 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .hero-area {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .product-area .card img {
+        height: 300px;
+        padding: 15px;
+    }
+    .product-info p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about-us-single {
+        padding: 20px;
+    }
+    .about-us-info h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .header-area .navbar-nav.nike-nav {
+        background: #FA804C;
+        padding: 10px 0;
+    }
+    .header-area .nav-link.nav_item {
+        color: #fff;
+    }
+    .navbar-toggler-icon::before {
+        content: "\f0c9";
+        color: #FA804C;
+        display: block;
+        font-family: FontAwesome;
+        font-size: 23px;
+        margin-top: 3px;
+    }
+    .header-area ul li {
+        padding: 5px;
+        transition: 0.3s;
+    }
+    .header-area ul li:hover {
+        background: #000;
+    }
+
+    .hero-area {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .hero-content h1 {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .product-area .card {
+        padding: 15px;
+    }
+    .product-area .card-title{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .product-area .card img {
+        height: 190px;
+        padding: 0px;
+        border-radius: 15px;
+    }
+    .product-info p {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .product-info .buy-button {
+        padding: 7px 13px;
+    }
+    .product-info .buy-button i {
+        padding-right: 4px;
+    }
+    .about-us-single {
+        padding: 20px;
+    }
+    .about-us-single img {
+        height: 50px;
+        width: 52px;
+        margin-right: 15px;
+    }
+    .about-us-info h4 {
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .blog-content {
+        padding: 30px 15px;
+    }
+    .blog-thumb-wraper {
+        height: 200px;
+    }
+    .single-blog-box h3 {
+        font-size: 17px;
+        line-height: 19px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .hero-content {
+        padding-left: 10px;
+    }
+    .hero-content h1 {
+        font-size: 60px;
+        line-height: 60px;
+        margin-top: 50px;
+    }
+    .hero-area{
+        height: auto;
+        padding-bottom: 70px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .product-area .card img {
+        height: auto;
+    }
+    .product-area .card-title{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .product-info p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about-us-single {
+        padding: 20px 20px 20px 20px;
+    }
+    .about-us-single img {
+        margin-right: 0px;
+    }
+    .about-us-single.justify-content-between {
+        align-items: center;
+    }
+    .about-us-single.d-flex {
+        display: block!important;
+        text-align: center;
+    }
+    
+    .header-area .navbar-nav.nike-nav {
+        background: #FA804C;
+        padding: 10px 0;
+    }
+    .header-area .nav-link.nav_item {
+        color: #fff;
+    }
+    .header-area ul li {
+        padding: 5px;
+        transition: 0.3s;
+    }
+    .header-area ul li:hover {
+        background: #000;
+    }
+    .navbar-toggler-icon::before {
+        content: "\f0c9";
+        color: #FA804C;
+        display: block;
+        font-family: FontAwesome;
+        font-size: 23px;
+        margin-top: 3px;
+    }
+    .footer-area {
+        text-align: center;
+    }
+    .footer-area .social-links {
+        text-align: center;
+    }
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .hero-content h1 {
+        font-size: 70px;
+        line-height: 70px;
+        margin-top: 50px;
+    }
+}
