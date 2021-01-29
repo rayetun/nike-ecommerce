@@ -1,1 +1,1 @@
-<a href="https://rayetun.github.io/nike-ecommerce/">Please Click to See Live Demo</a>
+<a href="https://rayetun.github.io/nike-ecommerce/" target="_blank">Please Click to See Live Demo</a>
